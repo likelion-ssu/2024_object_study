@@ -236,4 +236,4 @@ public class Audience {
 ![[Pasted image 20240706144517.png]]
 **개선 점**
 	Theater는 오직 TicketSeller의 인터페이스에 의존
-	
+	TicketOffic
