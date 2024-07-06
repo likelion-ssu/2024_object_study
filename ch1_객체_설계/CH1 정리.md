@@ -181,6 +181,21 @@ public class Theater {
 - TicketSeller와 동일한 방법으로 Audience의 캡슐화
 	-> Bag에 접근하는 모든 로직을 Audience 내부로 감추기
 	-> ```buy``` 함수
+
+*기존*
+    public void enter(Audience audience) {
+        if (audience.getBag().hasInvitation()) {
+            Ticket ticket = ticketSeller.getTicketOffice().getTicket();
+            audience.getBag().setTicket(ticket);
+        } else {
+            Ticket ticket = ticketSeller.getTicketOffice().getTicket();
+            audience.getBag().minusAmount(ticket.getFee());
+            ticketSeller.getTicketOffice().plusAmount(ticket.getFee());
+            audience.getBag().setTicket(ticket);
+        }
+    }
+
+
 	```java
 public class Theater {
     private TicketSeller ticketSeller;
