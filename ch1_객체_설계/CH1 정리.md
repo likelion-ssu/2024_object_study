@@ -177,7 +177,7 @@ public class Theater {
 
 - Theater가 Audience와 TicketSeller 접근
 	-> Audiecne와 TicketSeller가 직접 Bag와 TicketOffice를 처리하게끔 수정
-	->
+	-> ```sellTo``` 함수
 	```java
 public class Theater {
     private TicketSeller ticketSeller;
@@ -233,3 +233,4 @@ public class Audience {
 > **객체 내부의 세부적인 사항을 감추는 것**
 > **캡슐화를 통해 객체 내부 접근을 제한해 결합도를 낮출 수 있음**
 
+![[Pasted image 20240706144517.png]]
