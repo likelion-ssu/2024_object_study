@@ -247,8 +247,8 @@ public class Audience {
 - TicketSeller에서 getTicketOffice 메서드가 제거
 	-> ticketOffice의 가시성 private, 오직 TicketSeller 안에서 접근 가능
 	->TicketSeller는 ticketOffice 관련 작업을 직접 수행하게 됨
-- TicketSeller에서 Audience의 getBag 메서드 제거
-	->
+-  Audience에서 getBag 메서드 제거
+	-> 
 
 > [!캡슐화]
 > **객체 내부의 세부적인 사항을 감추는 것**
