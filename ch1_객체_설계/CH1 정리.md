@@ -175,3 +175,5 @@ public class Theater {
 
 #### 자율성을 높이자
 
+- Theater가 Audience와 TicketSeller 접근
+	-> Audiecne
