@@ -274,4 +274,5 @@ public class Audience {
 #### 절차지향과 객체지향
 
 **절차지향**
-	Theater의 enter 메서드는 
+	Theater의 enter 메서드는 프로세스이며 각 클래스(Audience 등)는 데이터이다.
+	이처럼 프로세스와 데이터를 별도의 모듈에 위치시키는 방식을 절차적 프로그래밍
