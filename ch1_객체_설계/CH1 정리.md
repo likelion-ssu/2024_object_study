@@ -259,6 +259,6 @@ public class Audience {
 **개선 점**
 	Theater는 오직 TicketSeller와 Audience의 **인터페이스**에 의존
 	(TicketSeller가 내부에 TicketOffice 인스턴스를 포함하고 있다는 사실과 Audience가 Bag 인스턴스를 포함하고 있다는 사실은 **구현** 영역)
-	
+
 	**Audience나 TicketSeller의 내부 구현을 변경하더라도 Theater를 함께 변경할 필요가 없어짐**
-	
+
