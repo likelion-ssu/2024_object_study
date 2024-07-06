@@ -341,7 +341,7 @@ public class Audience {
 - **구현의 대체 가능성**을 의미
 - 이것이 **유연하고 변경이 용이**하다고 표현
 
-#### 의존성 주입
+#### 의존성 주입(d)
 
 **OCP 개방-폐쇄의 원칙** 
 - 소프트웨어 요소는 확장에는 열려있으나 변경에는 닫혀있어야한다
@@ -360,3 +360,5 @@ public class Audience {
 - 위의 MemberService 클라이언트가 구현 클래스를 직접 선택
 	- MemberRepository m = new MemoryMemberRepository();
 	- DIP 위반
+
+
