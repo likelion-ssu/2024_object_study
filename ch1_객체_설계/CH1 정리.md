@@ -255,7 +255,7 @@ public class Audience {
 > **객체 내부의 세부적인 사항을 감추는 것**
 > **캡슐화를 통해 객체 내부 접근을 제한해 결합도를 낮출 수 있음**
 
-![[Pasted image 20240706144517.png]]
+![[Pasted image 20240706151025.png]]
 **개선 점**
-	Theater는 오직 TicketSeller의 **인터페이스**에 의존
-	(TicketSeller가 내부에 TicketOffice 인스턴스를 포함하고 있다는 사실은 **구현** 영역)
+	Theater는 오직 TicketSeller와 Audience의 **인터페이스**에 의존
+	(TicketSeller가 내부에 TicketOffice 인스턴스를 포함하고 있다는 사실과 Audience가 Bag 인스턴스를 포함하고 있다는 사실은 **구현** 영역)
