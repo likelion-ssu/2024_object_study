@@ -235,5 +235,5 @@ public class Audience {
 
 ![[Pasted image 20240706144517.png]]
 **개선 점**
-	Theater는 오직 TicketSeller의 인터페이스에 의존
-	TicketOffic
+	Theater는 오직 TicketSeller의 **인터페이스**에 의존
+	TicketSeller가 내부에 TicketOffice 인스턴스를 포함하고 있다는 사실은 **구현** 영역
