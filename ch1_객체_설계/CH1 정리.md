@@ -225,4 +225,5 @@ public class Audience {
 
 1. TicketSeller에서 getTicketOffice 메서드가 제거
 	-> ticketOffice의 가시성 private, 오직 TicketSeller 안에서 접근 가능
-2.  
+	->
+1. TicketOffiTicketSeller 안에만 존재
