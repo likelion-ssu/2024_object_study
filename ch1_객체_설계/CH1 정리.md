@@ -179,7 +179,8 @@ public class Theater {
 	-> Audiecne와 TicketSeller가 직접 Bag와 TicketOffice를 처리하게끔 수정
 	-> ```sellTo``` 함수
 - TicketSeller와 동일한 방법으로 Audience의 캡슐화
-	-> Bag
+	-> Bag에 접근하는 모든 로직을 Audience 내부로 감추기
+	-> ```buy``` 함수
 	```java
 public class Theater {
     private TicketSeller ticketSeller;
