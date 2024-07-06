@@ -176,4 +176,5 @@ public class Theater {
 #### 자율성을 높이자
 
 - Theater가 Audience와 TicketSeller 접근
-	-> Audiecne
+	-> Audiecne와 TicketSeller가 직접 Bag와 TicketOffice를 처리하게끔 수정
+	
