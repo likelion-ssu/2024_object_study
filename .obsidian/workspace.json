@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "22615a70f7e4ca8a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.5"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,7 +157,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "dbb20e9c04a504f9",
+  "active": "22615a70f7e4ca8a",
   "lastOpenFiles": [
     "README.md",
     "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
