@@ -223,4 +223,6 @@ public class Audience {
 }
 ```
 
-1. TicketSeller에서 getTicketOffice 메서드
+1. TicketSeller에서 getTicketOffice 메서드가 제거
+	-> 
+1. 
