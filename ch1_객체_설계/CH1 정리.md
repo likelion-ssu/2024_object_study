@@ -175,4 +175,3 @@ public class Theater {
 
 #### 자율성을 높이자
 
-Theater 
