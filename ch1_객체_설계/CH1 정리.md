@@ -185,8 +185,40 @@ public class Theater {
         this.ticketSeller = ticketSeller;
     }
 
+
     public void enter(Audience audience) {
         ticketSeller.sellTo(audience);
+    }
+}
+
+public class TicketSeller {
+    private TicketOffice ticketOffice;
+
+    public TicketSeller(TicketOffice ticketOffice) {
+        this.ticketOffice = ticketOffice;
+    }
+
+    public void sellTo(Audience audience) {
+        ticketOffice.plusAmount(audience.buy(ticketOffice.getTicket()));
+    }
+}
+
+public class Audience {
+    private Bag bag;
+
+    public Audience(Bag bag) {
+        this.bag = bag;
+    }
+
+    public Long buy(Ticket ticket) {
+        if (bag.hasInvitation()) {
+            bag.setTicket(ticket);
+            return 0L;
+        } else {
+            bag.setTicket(ticket);
+            bag.minusAmount(ticket.getFee());
+            return ticket.getFee();
+        }
     }
 }
 ```
