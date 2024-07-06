@@ -223,7 +223,10 @@ public class Audience {
 }
 ```
 
-1. TicketSeller에서 getTicketOffice 메서드가 제거
+- TicketSeller에서 getTicketOffice 메서드가 제거
 	-> ticketOffice의 가시성 private, 오직 TicketSeller 안에서 접근 가능
-	->TicketSeller는 ticket 관련 작업을 직접 수행
-1. TicketOffiTicketSeller 안에만 존재
+	->TicketSeller는 ticketOffice 관련 작업을 직접 수행하게 됨
+
+
+> [!설계 목표]
+> **객체 사이의 결합도를 낮춰 변경이 용이한 설계를 만드는 것**
