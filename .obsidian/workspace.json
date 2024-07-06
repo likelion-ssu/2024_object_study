@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "07c351d4a89c9466",
@@ -147,10 +146,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dbb20e9c04a504f9",
+  "active": "915861fd11bb2210",
   "lastOpenFiles": [
-    "README.md",
+    "ch1_객체_설계/CH1 정리.md",
     "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
+    "Pasted image 20240706154445.png",
+    "다형성_예시_1.png",
+    "Pasted image 20240706153022.png",
+    "Pasted image 20240706153009.png",
+    "Pasted image 20240706151025.png",
+    "Pasted image 20240706144517.png",
+    "Pasted image 20240706100648.png",
+    "README.md",
     "ch1_객체_설계"
   ]
 }
