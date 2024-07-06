@@ -337,3 +337,4 @@ public class Audience {
 
 
 #### 다형성이란?
+![[다형성_예시_1.png]]
