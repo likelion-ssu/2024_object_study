@@ -178,6 +178,8 @@ public class Theater {
 - Theater가 Audience와 TicketSeller 접근
 	-> Audiecne와 TicketSeller가 직접 Bag와 TicketOffice를 처리하게끔 수정
 	-> ```sellTo``` 함수
+- TicketSeller와 동일한 방법으로 Audience의 캡슐화
+	-> Bag
 	```java
 public class Theater {
     private TicketSeller ticketSeller;
