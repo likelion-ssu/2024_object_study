@@ -234,3 +234,6 @@ public class Audience {
 > **캡슐화를 통해 객체 내부 접근을 제한해 결합도를 낮출 수 있음**
 
 ![[Pasted image 20240706144517.png]]
+**개선 점**
+	Theater는 오직 TicketSeller의 인터페이스에 의존
+	
