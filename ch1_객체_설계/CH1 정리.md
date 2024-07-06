@@ -272,4 +272,6 @@ public class Audience {
 해당 객체는 자율적이다)
 
 #### 절차지향과 객체지향
-*절차지향*
+
+**절차지향**
+	Theater의 enter 메서드는 
