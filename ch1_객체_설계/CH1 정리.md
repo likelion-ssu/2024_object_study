@@ -182,8 +182,9 @@ public class Theater {
 	-> Bag에 접근하는 모든 로직을 Audience 내부로 감추기
 	-> ```buy``` 함수
 
-*기존*
-    public void enter(Audience audience) {
+*기존 enter 함수*
+``` java
+	public void enter(Audience audience) {
         if (audience.getBag().hasInvitation()) {
             Ticket ticket = ticketSeller.getTicketOffice().getTicket();
             audience.getBag().setTicket(ticket);
@@ -194,9 +195,11 @@ public class Theater {
             audience.getBag().setTicket(ticket);
         }
     }
+```
 
+*기존 enter 함수*
 
-	```java
+```java
 public class Theater {
     private TicketSeller ticketSeller;
 
