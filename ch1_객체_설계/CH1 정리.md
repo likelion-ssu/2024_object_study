@@ -197,8 +197,7 @@ public class Theater {
     }
 ```
 
-*기존 enter 함수*
-
+*개선*
 ```java
 public class Theater {
     private TicketSeller ticketSeller;
