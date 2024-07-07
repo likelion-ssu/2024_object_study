@@ -8,29 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dbb20e9c04a504f9",
+            "id": "c1c8cdfa6974f227",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
+                "file": "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "22615a70f7e4ca8a",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.5"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
+                "file": "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
+                "file": "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ch1_객체_설계/티켓 판매 애플리케이션 구현.md"
+                "file": "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md"
               }
             }
           }
@@ -157,10 +146,18 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "22615a70f7e4ca8a",
+  "active": "c1c8cdfa6974f227",
   "lastOpenFiles": [
-    "README.md",
+    "ch2_객체지향_프로그래밍/attachments/Pasted image 20240707123038.png",
+    "ch2_객체지향_프로그래밍/attachments/Pasted image 20240707122919.png",
+    "ch2_객체지향_프로그래밍/attachments/Pasted image 20240707121109.png",
+    "ch2_객체지향_프로그래밍/attachments/Pasted image 20240707000225.png",
+    "ch2_객체지향_프로그래밍/attachments/Pasted image 20240706235904.png",
+    "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md",
     "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
+    "ch2_객체지향_프로그래밍/attachments",
+    "ch2_객체지향_프로그래밍",
+    "README.md",
     "ch1_객체_설계"
   ]
 }
