@@ -206,7 +206,7 @@ public abstract class DiscountPolicy {
 ```
 
 `DiscountPolicy` 클래스는 `calculateDiscountAmount` 메서드를 통해 이를 처리한다.
-해당 메서드는 할인 여부와 요금 계산에 필요한 전체적인 '흐름'은 정의하지만, 실제로 요금을 계산하는 부분은 추상 메서드인 `getDiscountAmount` 메서드에게 '위임'한다. (TEMPLATE METHOD 패턴)
+해당 메서드는 할인 여부와 요금 계산에 필요한 전체적인 '흐름'은 정의하지만, 실제로 요금을 계산하는 부분은 추상 메서드인 `getDiscountAmount` 메서드에게 '위임'한다. ([[TEMPLATE METHOD 패턴|TEMPLATE METHOD 패턴]])
 
 `DiscountPolicy` 클래스는 다시 `DiscountCondition` 에게 `isSatisfiedBy` '메시지를 전송한다'.
 
