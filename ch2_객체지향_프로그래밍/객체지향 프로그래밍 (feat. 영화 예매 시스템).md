@@ -45,7 +45,7 @@
 + **예매(reservation)**
 	+ 제목, 상영정보, 인원, 정가, 결제금액 등 예매 정보를 포함
 
-![[Pasted image 20240707122919.png|600]]
+![[Requirements__example.png|600]]
 
 ## 도메인 모델과 클래스 다이어그램
 
@@ -66,7 +66,7 @@
 | :---------------------------------------------: | :--------------------------------------------: |
 | 개념적인(conceptual) 관점에서 시스템을 이루는 도메인 객체 간의 관계를 표현 | 소프트웨어(software) 관점에서 시스템 내부의 클래스와 관계를 세부적으로 표현 |
 
-![[Pasted image 20240707000225.png|500]]
+![[Domain_Model v.s. Design_Model.png|500]]
 
 ### 도메인 모델
 
@@ -74,15 +74,17 @@
 	- 문제를 해결하기 위해 사용자가 프로그램을 사용하는 분야
 	- 우리가 해결하려는 분야는 영화 예매 도메인
 
-![[Pasted image 20240707123038.png]]
+![[Domains.png]]
 
-![[Pasted image 20240707121109.png]]
+![[Domain_Model.png]]
 
 ### 클래스 다이어그램
 
 
 
 # 캡슐화와 접근 제어
+
+---
 
 + **캡슐화(encapsulation)**: 데이터(상태)와 기능(행동)을 객체 내부로 함께 묶는 것
 + **접근 제어(access control)**: 외부에서 내부로의 접근을 통제하는 것
@@ -91,10 +93,10 @@
 
 이 외부와 내부에서 접근 가능한 부분을 각각 ==**퍼블릭 인터페이스(public interface)**==와 ==**구현(implementation)**==이라고 한다. 객체 외부에서는 구현에 접근할 수 없고, 오직 퍼블릭 인터페이스를 통해 메시지를 보내는 것만 할 수 있다. 메시지로 인해 어떤 메서드가 수행되는지 또한 알지 못한다.
 
-퍼블릭 인터페이스는 접근 수정자(access modifier) 중 public으로 지정된 메서드만을 포함하고,
-구현은 private 메서드나 protected 메서드, 속성을 포함한다.
+퍼블릭 인터페이스는 접근 수정자(access modifier) 중 `public`으로 지정된 메서드만을 포함하고,
+구현은 `private` 메서드나 `protected` 메서드, 속성을 포함한다.
 
-###### 캡슐화와 접근제어 예시 코드 코드
+###### Screening 클래스 코드
 ```java
 public class Screening {
 	private Movie movie;    // 구현
@@ -103,14 +105,18 @@ public class Screening {
 
 	...
 
-	private Money calculateFee(int audienceCount) {    // 구현
+	// 구현
+	private Money calculateFee(int audienceCount) {
 		// movie 객체의 퍼블릭 인터페이스를 통해 메시지를 보냄
 		// 하지만 내부적으로 어떤 행동을 하는지 알 수 없고, 간섭할 수도 없음
 		return movie.calculateMovieFee(this).times(audienceCount);
 	}
 
 	// 퍼블릭 인터페이스
-	public Reservation reserve(Customer customer, int audienceCount) {...}
+	public Reservation reserve(Customer customer, int audienceCount) {
+		return new Reservation(customer, this, 
+			calculateFee(audienceCount), audienceCount);
+	}
 }
 ```
 
@@ -123,20 +129,141 @@ public class Screening {
 	- **클라이언트 프로그래머**: 내부 구현은 무시한 채 인터페이스만 알아도 클래스 사용 가능
 	- **클래스 작성자**: 인터페이스를 바꾸지 않는 한 외부에 미치는 영향을 걱정하지 않고도 내부 구현을 마음대로 변경 가능
 
-![[#캡슐화와 접근제어 예시 코드 코드]]
+![[#Screening 클래스 코드]]
 
-Screening 클래스는 movie 객체가 어떻게 영화 요금을 계산하는지 알 수 없고, 알 필요도 없다. 단순히 퍼블릭 인터페이스를 통해 메시지를 보내고, 자기 할 일만 잘하면 된다.
+`Screening` 클래스는 `movie` 객체가 어떻게 영화 요금을 계산하는지 알 수 없고, 알 필요도 없다. 단순히 퍼블릭 인터페이스를 통해 메시지를 보내고, 자기 할 일만 잘하면 된다.
 
-Movie 클래스도 자신의 구현을 숨김으로써 자율성을 보장받는다. 영화 요금을 계산하는 방식이 달라져도 `calculateMovieFee` 메서드 내부만 수정하면 된다. 외부의 다른 객체가 수정에 받는 영향을 신경쓰지 않아도 된다.
+`Movie` 클래스도 자신의 구현을 숨김으로써 자율성을 보장받는다. 영화 요금을 계산하는 방식이 달라져도 `calculateMovieFee` 메서드 내부만 수정하면 된다. 외부의 다른 객체가 수정에 받는 영향을 신경쓰지 않아도 된다.
+
+# 객체 간의 협력
+
+---
+
++ **협력(Collaboration)**: 
+	+ 시스템의 어떤 기능을 구현하기 위해 객체들 사이에 이뤄지는 상호작용
+	+ 객체지향 프로그램을 작성할 때는,
+		1. 먼저 협력의 관점에서 어떤 객체가 필요한지를 결정하고
+		2. 객체들의 공통 상태와 행위를 구현하기 위해 클래스를 작성한다.
+
+영화를 예매하기 위해 `Screening`, `Movie`, `Reservation` 인스턴스들은 서로의 메서드를 호출하며 상호작용한다.
+
+> [[#Screening 클래스 코드]]
+
+![[Communication_Diagram__reserving.png]]
+
+## 메시지와 메서드
+
++ ==**메시지(message)**:==
+	- 객체들이 협력(상호작용)하기 위한 유일한 의사소통 수단
+	- **메시지 전송**: 객체가 다른 객체의 인터페이스에 공개된 행동을 수행하도록 요청하는 것
+	- **메시지 수신**: 다른 객체의 요청이 도착하는 것
++ ==**메서드(method)**:==
+	- 메시지를 수신한 객체가, 수신한 메시지를 처리하는 자신만의 방법
+
+메시지와 메서드를 구분하는 것은 매우 중요하다. 메시지와 메서드의 구분에서부터 다형성(polymorphism)의 개념이 출발한다.
+
+###### Movie 클래스 코드
+```java
+public class Movie {
+	private String title;
+	private Duration runningTime;
+	private Money fee;
+	private DiscountPolicy discountPolicy;
+
+	...
+
+	public Money calculateMovieFee(Screening screening) {
+		return fee.minus(discountPolicy.calculateDiscountAmount(screening));
+	}
+}
+```
+
+위는 `Movie` 클래스의 코드 중 일부이다.
+
+`Movie` 클래스는 `DiscountPolicy` 클래스에게 `calculateDiscountAmount` '메시지를 전송한다'.
+실은 `Movie` 클래스는 `DiscountPolicy` 안에 `calculateDiscountAmount` 메서드가 존재하는지조차 알지 못한다. `DiscountPolicy` 가 `calculateDiscountAmount` 메시지에 응답할 수 있다고 믿고 메시지를 전송할 뿐이다.
+
+###### DiscountPolicy 추상 클래스 코드
+```java
+public abstract class DiscountPolicy {
+	private List<DiscountCondition> conditions = new ArrayList<>();
+
+	public Money calculateDiscountAmount(Screening screening) {
+		// 전체 할인 조건에 대해 차례대로 screening이 할인 조건을 만족하는지 검사
+		for (DiscountCondition each : conditions) {
+			if (each.isSatisfiedBy(screening)) {
+				// 추상 메서드 호출
+				return getDiscountAmount(screening);
+			}
+		}
+		// 만족하는 할인 조건이 하나도 존재하지 않는다면, 할인 요금은 0원
+		return Money.ZERO;
+	}
+
+	// DiscountPolicy를 상속받은 자식 클래스의 오버라이딩 필요
+	abstract protected Money getDiscountAmount(Screening screening);
+}
+```
+
+`DiscountPolicy` 클래스는 `calculateDiscountAmount` 메서드를 통해 이를 처리한다.
+해당 메서드는 할인 여부와 요금 계산에 필요한 전체적인 '흐름'은 정의하지만, 실제로 요금을 계산하는 부분은 추상 메서드인 `getDiscountAmount` 메서드에게 '위임'한다. (TEMPLATE METHOD 패턴)
+
+`DiscountPolicy` 클래스는 다시 `DiscountCondition` 에게 `isSatisfiedBy` '메시지를 전송한다'.
+
+###### DiscountCondition 자바 인터페이스 코드
+```java
+public interface DiscountCondition {
+	boolean isSatisfiedBy(Screening screening);
+}
+```
+
+`DiscountCondition` 은 수신한 `isSatisfiedBy` 메시지를 처리하기 적절한 '메서드'를 스스로 선택한다.
+객체의 타입에 따라, `SequenceCondition` 의 `isSatisfiedBy` 메서드나 `PeriodCondition` 의 `isSatisfiedBy` 메서드를 선택한다.
+
+전송자(`DiscountPolicy`)는 수신자(`DiscountCondition`)가 어떤 클래스의 인스턴스인지, 어떤 메서드를 호출하여 처리했는지 알 필요가 없다. 어떻게(How) 수행하는지는 모르고, 무엇을(What) 하는지만 알 뿐이다.
+
+###### SequenceCondition 자바 구현체 코드
+```java
+public class SequenceCondition implements DiscountCondition {
+	private int sequence;
+	...
+	public boolean isSatisfiedBy(Screening screening) {
+		// 순번(sequence)과 파라미터로 전달된 Screening의 상영 순번이 일치하면 할인 가능
+		return screening.isSequence(sequence);
+	}
+}
+```
+###### PeriodCondition 자바 구현체 코드
+```java
+public class PeriodCondition implements DiscountCondition {
+	private DayOfWeek dayOfWeek;
+	private LocalTime startTime;
+	private LocalTime endTime;
+	...
+	public boolean isSatisfiedBy(Screening screening) {
+		// 인자로 전달된 Screening의 상영 요일이 dayOfWeek과 같고,
+		// 상영 시작 시간이 startTime과 endTime 사이에 있을 경우 할인 가능
+		return screening.getStartTime().getDayOfWeek().equals(dayOfWeek) &&
+			startTime.compareTo(screening.getStartTime().toLocalTime()) <= 0 &&
+			endTime.compareTo(screening.getStartTime().toLocalTime()) >= 0;
+	}
+}
+```
 
 # 상속과 다형성
+
+---
+
+
 
 
 # 추상화와 유연성
 
-
+---
 
 # Hands-on
+
+---
 
 일전에 프로젝트를 수행하던 중에 난항을 겪은 적이 있다.
 
@@ -176,7 +303,9 @@ public class ArticleResponse {
 
 - `@Builder`
 	- `ArticleResponse` 클래스에 `builder()` 라는 메서드를 추가하는 어노테이션이다.
-	- `builder` 메서드는 `ArticleResponse` 인스턴스를 생성하는 데에 사용되며 위의 코드와 같이 `ArticleResponse` 클래스의 특정 속성만을 포함시켜서 인스턴스를 생성할 수 있다.
+	- `builder` 메서드
+		- `ArticleResponse` 인스턴스를 생성하는 데에 사용된다.
+		- `ArticleResponse` 클래스의 특정 속성(변수)만을 포함시켜서 인스턴스를 생성할 수도 있다.
 	- `@Builder` 어노테이션이 적용되기 위해서, 해당하는 클래스는 모든 속성을 포함하는 생성자 `ArticleResponse(String title, int content, LocalDateTime createdAt)` 를 반드시 구현해야 한다.
 + `create` 메서드
 	+ 정적 팩토리 생성자 메서드이다.

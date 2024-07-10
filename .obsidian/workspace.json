@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "07c351d4a89c9466",
@@ -146,18 +147,19 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "c1c8cdfa6974f227",
+  "active": "915861fd11bb2210",
   "lastOpenFiles": [
-    "ch2_객체지향_프로그래밍/attachments/Pasted image 20240707123038.png",
-    "ch2_객체지향_프로그래밍/attachments/Pasted image 20240707122919.png",
-    "ch2_객체지향_프로그래밍/attachments/Pasted image 20240707121109.png",
-    "ch2_객체지향_프로그래밍/attachments/Pasted image 20240707000225.png",
-    "ch2_객체지향_프로그래밍/attachments/Pasted image 20240706235904.png",
+    "README.md",
     "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md",
+    "ch2_객체지향_프로그래밍/attachments/Requirements__example.png",
+    "ch2_객체지향_프로그래밍/attachments/Communication_Diagram__reserving.png",
+    "ch2_객체지향_프로그래밍/attachments/Domains.png",
+    "ch2_객체지향_프로그래밍/attachments/Domain_Model.png",
+    "ch2_객체지향_프로그래밍/attachments/Domain_Model v.s. Design_Model.png",
+    "ch2_객체지향_프로그래밍/attachments/Pasted image 20240706235904.png",
     "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
     "ch2_객체지향_프로그래밍/attachments",
     "ch2_객체지향_프로그래밍",
-    "README.md",
     "ch1_객체_설계"
   ]
 }
