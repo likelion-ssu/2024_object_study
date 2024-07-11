@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "03130aee93bf2ca9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "fec61ac07a421b4f",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -158,21 +171,22 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "c1c8cdfa6974f227",
+  "active": "03130aee93bf2ca9",
   "lastOpenFiles": [
-    "ch2_객체지향_프로그래밍/TEMPLATE METHOD 패턴.md",
+    "^Movie-AmountDiscountPolicy.md",
     "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md",
-    "ch2_객체지향_프로그래밍/attachments/Pasted image 20240711043632.png",
-    "ch2_객체지향_프로그래밍/attachments/Pasted image 20240711043451.png",
-    "ch2_객체지향_프로그래밍/attachments/Pasted image 20240711043359.png",
+    "ch2_객체지향_프로그래밍/attachments/실행 시에 Movie는 AmountDiscountPolicy에 의존한다.png",
+    "ch2_객체지향_프로그래밍/attachments/Screening, Reservation, Movie 사이의 협력.png",
+    "ch2_객체지향_프로그래밍/attachments/Requirements__example.png",
     "ch2_객체지향_프로그래밍/attachments/Pasted image 20240711042809.png",
     "ch2_객체지향_프로그래밍/attachments/Pasted image 20240711042617.png",
-    "README.md",
-    "ch2_객체지향_프로그래밍/attachments/Requirements__example.png",
-    "ch2_객체지향_프로그래밍/attachments/Communication_Diagram__reserving.png",
     "ch2_객체지향_프로그래밍/attachments/Domains.png",
     "ch2_객체지향_프로그래밍/attachments/Domain_Model.png",
     "ch2_객체지향_프로그래밍/attachments/Domain_Model v.s. Design_Model.png",
+    "ch2_객체지향_프로그래밍/attachments/DiscountPolicy 상속 계층.png",
+    "ch2_객체지향_프로그래밍/TEMPLATE METHOD 패턴.md",
+    "ch2_객체지향_프로그래밍/attachments/Pasted image 20240711043632.png",
+    "README.md",
     "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
     "ch2_객체지향_프로그래밍/attachments",
     "ch2_객체지향_프로그래밍",
