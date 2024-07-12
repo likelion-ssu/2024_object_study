@@ -8,25 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c1c8cdfa6974f227",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "03130aee93bf2ca9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ch2_객체지향_프로그래밍/TEMPLATE METHOD 패턴.md",
-                "mode": "source",
+                "file": "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -170,11 +158,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "c1c8cdfa6974f227",
+  "active": "03130aee93bf2ca9",
   "lastOpenFiles": [
+    "ch2_객체지향_프로그래밍/TEMPLATE METHOD 패턴.md",
+    "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md",
+    "ch2_객체지향_프로그래밍/attachments/그림_2.6.png",
+    "ch2_객체지향_프로그래밍/attachments/그림_2.16.png",
     "ch2_객체지향_프로그래밍/attachments/그림_2.15.png",
     "^discountPolicy-class.md",
-    "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md",
     "ch2_객체지향_프로그래밍/attachments/그림_2.14.png",
     "ch2_객체지향_프로그래밍/attachments/Pasted image 20240711043632.png",
     "ch2_객체지향_프로그래밍/attachments/Pasted image 20240711043451.png",
@@ -182,10 +173,6 @@
     "ch2_객체지향_프로그래밍/attachments/Pasted image 20240711042809.png",
     "ch2_객체지향_프로그래밍/attachments/Pasted image 20240711042617.png",
     "ch2_객체지향_프로그래밍/attachments/Domain_Model v.s. Design_Model.png",
-    "ch2_객체지향_프로그래밍/attachments/그림_2.5.png",
-    "ch2_객체지향_프로그래밍/attachments/그림_2.4.png",
-    "ch2_객체지향_프로그래밍/attachments/그림_2.3.png",
-    "ch2_객체지향_프로그래밍/TEMPLATE METHOD 패턴.md",
     "^Movie-AmountDiscountPolicy.md",
     "README.md",
     "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
