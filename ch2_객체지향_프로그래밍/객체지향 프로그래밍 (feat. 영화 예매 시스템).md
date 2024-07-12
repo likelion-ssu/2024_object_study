@@ -23,7 +23,7 @@
 
 공통된 특성과 상태를 가진 객체들을 타입으로 분류! 이 타입을 기반으로 클래스를 구현!!
 
-## 요구사항
+## 요구사항 🏷️
 
 영화 예매 시스템 개발
 
@@ -45,9 +45,9 @@
 + **예매(reservation)**
 	+ 제목, 상영정보, 인원, 정가, 결제금액 등 예매 정보를 포함
 
-![[Requirements__example.png|600]]
+![[표_2.1.png|600]]
 
-## 도메인 모델과 클래스 다이어그램
+## 도메인 모델과 클래스 다이어그램 🏷️
 
 객체지향 개발 단계 중에는 분석과 설계가 존재한다.
 
@@ -74,9 +74,9 @@
 	- 문제를 해결하기 위해 사용자가 프로그램을 사용하는 분야
 	- 우리가 해결하려는 분야는 영화 예매 도메인
 
-![[Domains.png]]
+![[그림_2.3.png]]
 
-![[Domain_Model.png]]
+![[그림_2.4.png]]
 
 ### 클래스 다이어그램
 
@@ -120,7 +120,7 @@ public class Screening {
 }
 ```
 
-## 구현 은닉
+## 구현 은닉 🏷️
 
 - **구현 은닉(implementation hiding)**
 	클라이언트 프로그래머에게 ==필요한 부분만 공개==하고, ==숨겨놓은 나머지 부분에 마음대로 접근할 수 없도록 방지==하는 것
@@ -149,9 +149,9 @@ public class Screening {
 
 > [[#Screening 클래스 코드]]
 
-![[Screening, Reservation, Movie 사이의 협력.png]]
+![[그림_2.5.png]]
 
-## 메시지와 메서드
+## 메시지와 메서드 🏷️
 
 + ==**메시지(message)**:==
 	- 객체들이 협력(상호작용)하기 위한 유일한 의사소통 수단
@@ -160,7 +160,7 @@ public class Screening {
 + ==**메서드(method)**:==
 	- 메시지를 수신한 객체가, 수신한 메시지를 처리하는 자신만의 방법
 
-메시지와 메서드를 구분하는 것은 매우 중요하다. 메시지와 메서드의 구분에서부터 다형성(polymorphism)의 개념이 출발한다.
+메시지와 메서드를 구분하는 것은 매우 중요하다. 메시지와 메서드의 구분에서부터 [[#다형성과 인터페이스 🏷️|다형성(polymorphism)]]의 개념이 출발한다.
 
 ###### Movie 클래스 코드
 ```java
@@ -206,6 +206,8 @@ public abstract class DiscountPolicy {
 	abstract protected Money getDiscountAmount(Screening screening);
 }
 ```
+
+^discountPolicy-class
 
 **`DiscountPolicy` 클래스는 `calculateDiscountAmount` 메서드를 통해 이를 처리한다.**
 해당 메서드는 할인 여부와 요금 계산에 필요한 전체적인 '흐름'은 정의하지만, 실제로 요금을 계산하는 부분은 추상 메서드인 `getDiscountAmount` 메서드에게 '위임'한다. ([[TEMPLATE METHOD 패턴|TEMPLATE METHOD 패턴]])
@@ -255,11 +257,11 @@ public class PeriodCondition implements DiscountCondition {
 
 ---
 
-## 컴파일 시간 의존성과 실행 시간 의존성
+## 컴파일 시간 의존성과 실행 시간 의존성 🏷️
 
 ==**코드의 의존성(`컴파일 시간 의존성`)과 실행 시점의 의존성이 서로 다를 수 있다.**==
 
-![[DiscountPolicy 상속 계층.png]]
+![[그림_2.7.png]]
 
 위 그림은 `Movie` 와 `DiscountPolicy` 계층을 클래스 다이어그램으로 나타낸 것이다.
 
@@ -274,7 +276,7 @@ Movie avatar = new Movie("아바타",
 ```
 ^Movie-AmountDiscountPolicy
 
-![[실행 시에 Movie는 AmountDiscountPolicy에 의존한다.png]]
+![[그림_2.8.png]]
 
 그러나 **실행 시점에서 `Movie` 인스턴스는 `AmountDiscountPolicy` 나 `PercentDiscountPolicy` 의 인스턴스에 의존한다.**
 
@@ -288,7 +290,7 @@ Movie avatar = new Movie("아바타",
 	- `Movie` 인스턴스가 의존하는 객체를 찾기 위해서는, 해당 인스턴스의 생성자에 전달되는 객체의 타입을 확인해야 함. ([[#^Movie-AmountDiscountPolicy|Movie 인스턴스 생성 참조]])
 2. **유연성 억제 → 재사용성과 확장 가능성이 낮아짐**
 
-## 상속과 인터페이스
+## 상속과 인터페이스 🏷️
 
 + **상속(inheritance)**
 	- 두 클래스 사이의 관계를 정의하는 방법
@@ -314,18 +316,213 @@ Movie avatar = new Movie("아바타",
 	+ e.g. `Movie` 생성자의 인자의 타입이 `DiscountPolicy` 임에도 `AmountDiscountPolicy` 와 `PercentDiscountPolicy` 의 인스턴스를 전달하는 것
 	![[#^Movie-AmountDiscountPolicy]]
 
-## 다형성과 인터페이스
+## 다형성과 인터페이스 🏷️
 
 + **다형성(polymorphism)**:
-	+ 
+	+ 동일한 메시지를 수신했을 때 객체의 타입에 따라 다르게 응답할 수 있는 능력
+	+ 객체가 동일한 **메시지**를 전송하여도, 실제로 어떤 **메서드**가 실행되는지는 ==**메시지를 수신하는 객체의 클래스**가 무엇이냐==에 따라 달라짐
+	+ 다형적인 협력에 참여하는 객체들은 모두 **상속**을 통해 **인터페이스가 동일**해야 한다.
 
+![[#^movie-class]]
 
+|          컴파일 시간 의존성          |              실행 시간 의존성              |
+| :--------------------------: | :---------------------------------: |
+| `Movie` `→` `DiscountPolicy` | `Movie` `→` `AmountDiscountPolicy`  |
+|                              | `Movie` `→` `PercentDiscountPolicy` |
+다형성은 컴파일 시간 의존성(`DiscountPolicy`)과 실행 시간 의존성(`AmountDiscountPolicy`/`PercentDiscountPolicy`)을 다르게 만들 수 있는 객체지향의 특성을 이용해 서로 다른 메서드(`calculateDiscountAmount`)를 실행할 수 있게 한다.
+
++ **지연 바인딩(lazy binding):**
+	+ 동적 바인딩(dynamic binding)
+	+ 메시지와 메서드를 실행 시점에 바인딩하는 것
+	+ 객체 지향이 하나의 메시지를 선택적으로 서로 다른 메서드에 연결할 수 있는 이유
+	+ e.g. 실행 시점에 어느 클래스(`AmountDiscountPolicy`/`PercentDiscountPolicy`)의 `calculateDiscountAmount` 메서드를 실행할지 결정
+
++ 초기 바인딩(early binding):
+	+ 정적 바인딩(static binding)
+	+ 컴파일 시점에 실행될 함수나 프로시저를 결정하는 것
+	+ 전통적인 함수 호출 방식
+
+> [!NOTE] 구현 상속과 인터페이스 상속
+> + **구현 상속(implementation inheritance)**
+> 	+ 순수하게 코드를 재사용하기 위한 목적으로 상속을 사용하는 것
+> 	+ 서브클래싱(subclassing)
+> + **인터페이스 상속(interface inheritance)**
+> 	+ 다형적인 협력을 위해 부모 클래스와 자식 클래스가 인터페이스를 공유할 수 있도록 상속을 이용하는 것
+> 	+ 서브타이핑(subtyping)
+> ---
+> **상속은 구현 상속이 아니라 인터페이스 상속을 위해 사용해야 한다.**
+> 구현을 재사용할 목적으로 상속을 사용하면 변경에 취약한 코드를 낳게 될 확률이 높다.
+> 코드 재사용에는 구현 상속 대신에 [[#코드 재사용 🏷️|합성(composition)]]을 사용한다.
 
 # 추상화와 유연성
 
 ---
 
-# Hands-on
++ **추상화(abstraction)**:
+	+ **퍼블릭 인터페이스에 초점**을 맞추고, 구현의 일부(`추상 클래스`) 혹은 전체(`자바 인터페이스`)를 ==자식 클래스가 결정할 수 있도록 **결정권을 위임**==
+	+ e.g. 할인 정책(`DiscountPolicy`) - 금액 할인 정책과 비율 할인 정책
+	+ e.g. 할인 조건(`DiscountCondition`) - 순번 조건과 기간 조건
+
+## 추상화의 장점 🏷️
+
+1. 추상화의 계층만 따로 떼어 놓고 살펴보면 **[[#추상화 장점 1 - 상위 정책 기술의 편이성|요구사항의 정책을 높은 수준에서 서술 가능]]**
+2. 추상화를 이용하면 **[[#추상화 장점 2 - 설계의 유연성|설계가 유연해짐]]**
+
+![[그림_2.13.png]]
+
+### 추상화 장점 #1 - 상위 정책 기술의 편이성
+
+> **추상화를 사용하면 세부적인 내용을 무시한 채 ==상위 정책을 쉽고 간단하게 표현==할 수 있다.**
+
+```
+1. "영화 예매 요금은 최대 하나의 '할인 정책'과 다수의 '할인 조건'을 이용해 계산할 수 있다."
+
+2. "영화의 예매 요금은 '금액 할인 정책'과 '두 개의 순서 조건, 한 개의 기간 조건'을 이용해서 계산할 수 있다."
+```
+
+1번 문장은 2번 문장을 포괄한다.
+추상화는 세부사항에 억눌리지 않고 상위 개념만으로 도메인의 중요한 개념을 설명 가능하게 한다.
+
+> **추상화를 이용해 상위 정책을 기술한다는 것은 기본적인 애플리케이션의 협력 흐름을 기술한다는 것을 의미한다.**
+
++ 영화의 예매 가격을 계산하기 위한 흐름은
+	+ 항상 `Movie` `→` `DiscountPolicy` `→` `DiscountCondition` 으로 흐른다.
+	+ 자식 클래스들은 추상화를 통해 정의한 상위의 협력 흐름을 그대로 따르게 된다.
+
+### 추상화 장점 #2 - 설계의 유연성
+
+> **추상화를 이용해 상위 정책을 표현하면 기존 구조를 수정하지 않고도 새로운 기능을 쉽게 추가하고 확장할 수 있다.**
+
++ 추상화를 중심으로 코드의 구조를 설계하면 ==**유연하고 확장 가능한 설계**==를 만들 수 있음
++ 이는 추상화가 ==**설계가 구체적인 상황에 결합되는 것을 방지**==하기 때문
+	+ e.g. `Movie` 클래스는 특정할 할인 정책에 묶이지 않기 때문에, `DiscountPolicy` 를 상속받는 어떠한 할인 정책과도 협력이 가능
+
+## 유연성, 그리고 추상화 🏷️
+
+> **유연성이 필요한 곳에 추상화를 사용하라.**
+
+<u>할인 정책이 적용되지 않는 영화</u>는, 할인 요금을 계산할 필요 없이 영화에 설정된 기본 요금을 그대로 사용해야 한다.
+
+### 방식 #1
+
+```java
+public class Movie {
+	public Money calculateMovieFee(Screening screening) {
+		// 할인 정책이 없는 경우, 기본 요금을 그대로 사용
+		if (discountPolicy == null) {
+			return fee;
+		}
+		
+		return fee.minus(discountPolicy.calculateDiscountAmount(screening));
+	}
+}
+```
+
+협력의 설계 측면에서, 책임의 위치를 결정하기 위해 **조건문**을 사용하는 것은 대부분 좋지 않은 선택이다. 지금까지 **일관성 있던 협력 방식이 무너지기 때문**이다.
+
+|        -         |         할인 금액 계산하는 책임         |                              위치                              |
+| :--------------: | :---------------------------: | :----------------------------------------------------------: |
+|   **기존 할인 정책**   | `DiscountPolicy` 의 <br>자식 클래스 | `DiscountPolicy` 의 자식 클래스의 <br>`calculateDiscountAmount` 메서드 |
+| **할인 정책이 없는 경우** |          `Movie` 클래스          |     `if (discountPolicy == null)` <br>`{ return fee; }`      |
+
+⇒ ==**예외 케이스 최소화 & 일관성 유지가 중요!!**==
+
+### 방식 #2
+
+```java
+public class NoneDiscountPolicy extends DiscountPolicy {
+	@Override
+	protected Money getDiscountAmount(Screening screening) {
+		return Money.ZERO;
+	}
+}
+```
+
+```java
+Movie starWars = new Movie("스타워즈",
+						  Duration.ofMinutes(210),
+						  Money.wons(10000),
+						  new NoneDiscountPolicy());
+```
+
+`NoneDiscountPolicy` 클래스를 추가하여 일관성을 유지하였다. 
+(할인 요금을 계산할 책임을 `DiscountPolicy` 계층에 유지)
+
+==**애플리케이션의 기능을 확장하는 데에, 기존 코드(`Movie&DiscountPolicy`)가 수정되지 않음**==
+
+⇒ `NoneDiscountPolicy` 클래스가 상속받는 `DiscountPolicy` 가 추상적이기 때문에 가능
+⇒ 추상화는 유연하고 확장 가능한 설계를 가능하게 한다.
+
+![[그림_2.14.png]]
+
+## 추상 클래스와 인터페이스 트레이드오프 🏷️
+
+> 구현과 관련된 모든 것들이 트레이드오프의 대상이 될 수 있다.
+
+### 방식 #3
+
+`NoneDiscountPolicy` 클래스의 `getDiscountAmount` 메서드는 사실 반환 값이 무엇이든 상관 없다.
+
+![[#^discountPolicy-class]]
+
+부모 클래스 `DiscountPolicy` 는 할인 조건을 차례대로 검사하며, 만족하는 할인 조건이 있는 경우에 `getDiscountAmount` 메서드를 호출한다.
+하지만, `NoneDiscountPolicy` 는 **할인 조건이 없기 때문**에 `getDiscountAmount` 메서드가 호출되지 않기 때문이다.
+
+부모 클래스 `DiscountPolicy` 의 `calculateDiscountAmount` 메서드에서, 할인 조건이 없는 경우 0원을 반환하는 것을 바탕으로 `NoneDiscountPolicy` 가 설계되었다.
+이는 **`DiscountPolicy` 와 `NoneDiscountPolicy` 를 개념적으로 결합**시킨다.
+
+```java
+public interface DiscountPolicy {
+	Money calculate DiscountAmount(Screening screening);
+}
+```
+
+```java
+public abstact class DefaultDiscountPolicy implements DiscountPolicy {
+	...
+}
+```
+
+```java
+public class NoneDiscountPolicy implements DiscountPolicy {
+	@Override
+	public Money calculateDiscountAmount(Screening screening) {
+		return Money.ZERO;
+	}
+}
+```
+
+이 문제를 해결하기 위해
+1. `DiscountPolicy` 클래스를 자바 인터페이스로 변경
+2. 기존 `DiscountPolicy` 클래스의 이름을 `DefaultDiscountPolicy`로 변경. 자바 인터페이스를 구현하도록 수정
+3. `NoneDiscountPolicy`가 자바 인터페이스를 구현하도록 수정
+
+![[그림_2.15.png]]
+
++ **트레이드오프**
+	+ 이상:
+		+ 인터페이스를 사용하도록 변경한 설계가 더 좋음
+	+ 현실:
+		+ `NoneDiscountPolicy` 만을 위해 인터페이스를 추가하는 것이 과함
+		+ 변경 전의 코드(방식 #2)도 할인 금액이 0원이라는 사실을 효과적으로 전달
+
+⇒ 구현에 관련된 모든 것들이 트레이드오프의 대상이 될 수 있다.
+⇒ 고민하고 트레이드오프해라.
+
+## 코드 재사용 🏷️
+
+
+
+### 상속을 통한 코드 재사용
+
+
+
+### 합성
+
+
+
+
+# Hands-on 🤲
 
 ---
 
@@ -379,7 +576,8 @@ public class ArticleResponse {
 해당 응답 클래스를 사용하는 API를 팀원들과 함께 협업하여 구현하였고, 모든 상황에서 올바르게 동작하였다.
 하지만 해당 클래스에는 심각한 문제가 존재한다. 무엇일까?
 
-# 🏷️
+# What you need to know ✅
+
 ----
 
-#캡슐화 #접근제어 #구현은닉 #상속 #다형성 #추상화 #유연성 #메시지 #메서드 #퍼블릭인터페이스 #구현 
+#캡슐화 #접근제어 #구현은닉 #상속 #다형성 #추상화 #유연성 #메시지 #메서드 #퍼블릭인터페이스 #구현 #동적바인딩 
