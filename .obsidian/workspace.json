@@ -11,8 +11,12 @@
             "id": "f788698b6084c232",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "ch1_객체_설계/티켓 판매 애플리케이션 구현.md"
+              }
             }
           }
         ]
