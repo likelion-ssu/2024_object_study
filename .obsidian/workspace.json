@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "ch1_객체_설계/CH1 정리.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "ch1_객체_설계/CH1 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "ch1_객체_설계/CH1 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "ch1_객체_설계/CH1 정리.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "19afdc00fd4ba59e",
   "lastOpenFiles": [
+    "README.md",
     "다형성_예시_1.png",
     "ch1_객체_설계/CH1 정리.md",
     "Pasted image 20240706154445.png",
@@ -156,7 +157,6 @@
     "Pasted image 20240706151025.png",
     "Pasted image 20240706144517.png",
     "Pasted image 20240706100648.png",
-    "README.md",
     "ch1_객체_설계"
   ]
 }
