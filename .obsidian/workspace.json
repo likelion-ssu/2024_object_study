@@ -1,34 +1,18 @@
 {
   "main": {
-    "id": "57f4e135a6be7b35",
+    "id": "8c187250ad11513c",
     "type": "split",
     "children": [
       {
-        "id": "84a00030d3f771d8",
+        "id": "ab1154de76d8c54e",
         "type": "tabs",
         "children": [
           {
-            "id": "03130aee93bf2ca9",
+            "id": "f788698b6084c232",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fec61ac07a421b4f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ch2_객체지향_프로그래밍/TEMPLATE METHOD 패턴.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -37,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "0e31ea5c9ec59bcc",
+    "id": "2b97f4c5444cd93d",
     "type": "split",
     "children": [
       {
-        "id": "82dcfe762e735c35",
+        "id": "3812775031eedc8c",
         "type": "tabs",
         "children": [
           {
-            "id": "915861fd11bb2210",
+            "id": "96b5d65e77f8a6d8",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -55,7 +39,7 @@
             }
           },
           {
-            "id": "56cf51c827bdba24",
+            "id": "088d610637305633",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -70,7 +54,7 @@
             }
           },
           {
-            "id": "c90735872241054a",
+            "id": "db60198fb6a98e4f",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -84,20 +68,19 @@
     "width": 300
   },
   "right": {
-    "id": "07c351d4a89c9466",
+    "id": "f966d5ac02e82326",
     "type": "split",
     "children": [
       {
-        "id": "e44595a1e81a053f",
+        "id": "7318cc52cffecdc3",
         "type": "tabs",
         "children": [
           {
-            "id": "9de8a23f5bed6cc9",
+            "id": "ce22e56662c59fbd",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,19 +92,18 @@
             }
           },
           {
-            "id": "af41148d7f6f5756",
+            "id": "9b0fe01a20c109a9",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "432bbfed3f238c88",
+            "id": "7ac372978bb632dc",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -132,13 +114,11 @@
             }
           },
           {
-            "id": "41e1cc36a04b0bc9",
+            "id": "561eccf7da73fad3",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md"
-              }
+              "state": {}
             }
           }
         ]
@@ -150,34 +130,36 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
-      "graph:그래프 뷰 열기": false,
-      "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "03130aee93bf2ca9",
+  "active": "f788698b6084c232",
   "lastOpenFiles": [
-    "ch2_객체지향_프로그래밍/TEMPLATE METHOD 패턴.md",
-    "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md",
+    "ch1_객체_설계/CH1 정리.md",
+    "오브젝트/Welcome.md",
+    "오브젝트",
+    "ch2_객체지향_프로그래밍/attachments/표_2.1.png",
+    "ch2_객체지향_프로그래밍/attachments/그림_2.8.png",
+    "ch2_객체지향_프로그래밍/attachments/그림_2.7.png",
     "ch2_객체지향_프로그래밍/attachments/그림_2.6.png",
-    "ch2_객체지향_프로그래밍/attachments/그림_2.16.png",
+    "ch2_객체지향_프로그래밍/attachments/그림_2.5.png",
+    "ch2_객체지향_프로그래밍/attachments/그림_2.4.png",
+    "ch2_객체지향_프로그래밍/attachments/그림_2.3.png",
     "ch2_객체지향_프로그래밍/attachments/그림_2.15.png",
-    "^discountPolicy-class.md",
+    "ch2_객체지향_프로그래밍/attachments/그림_2.16.png",
     "ch2_객체지향_프로그래밍/attachments/그림_2.14.png",
-    "ch2_객체지향_프로그래밍/attachments/Pasted image 20240711043632.png",
-    "ch2_객체지향_프로그래밍/attachments/Pasted image 20240711043451.png",
-    "ch2_객체지향_프로그래밍/attachments/Pasted image 20240711043359.png",
-    "ch2_객체지향_프로그래밍/attachments/Pasted image 20240711042809.png",
-    "ch2_객체지향_프로그래밍/attachments/Pasted image 20240711042617.png",
-    "ch2_객체지향_프로그래밍/attachments/Domain_Model v.s. Design_Model.png",
-    "^Movie-AmountDiscountPolicy.md",
-    "README.md",
-    "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
+    "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md",
     "ch2_객체지향_프로그래밍/attachments",
+    "ch2_객체지향_프로그래밍/TEMPLATE METHOD 패턴.md",
     "ch2_객체지향_프로그래밍",
-    "ch1_객체_설계"
+    "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
+    "README.md",
+    "ch1_객체_설계",
+    "Welcome.md"
   ]
 }
