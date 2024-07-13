@@ -9,6 +9,7 @@
         "children": [
           {
             "id": "f788698b6084c232",
+
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -86,6 +87,7 @@
               "type": "backlink",
               "state": {
                 "file": "ch1_객체_설계/CH1 정리.md",
+
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,6 +105,7 @@
               "type": "outgoing-link",
               "state": {
                 "file": "ch1_객체_설계/CH1 정리.md",
+
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,6 +129,7 @@
               "type": "outline",
               "state": {
                 "file": "ch1_객체_설계/CH1 정리.md"
+
               }
             }
           }
@@ -151,6 +155,7 @@
     "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
     "다형성_예시_1.png",
     "ch1_객체_설계/CH1 정리.md",
+
     "Pasted image 20240706154445.png",
     "Pasted image 20240706153022.png",
     "Pasted image 20240706153009.png",
@@ -162,5 +167,6 @@
     "오브젝트",
     "ch1_객체_설계",
     "Welcome.md"
+
   ]
 }
