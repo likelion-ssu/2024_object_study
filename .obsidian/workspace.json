@@ -11,8 +11,12 @@
             "id": "f748db784200ed7e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "conflict-files-obsidian-git.md"
+              }
             }
           }
         ]
@@ -141,6 +149,8 @@
   "active": "f748db784200ed7e",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
+    "오브젝트/Welcome.md",
+    "오브젝트",
     "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
     "ch1_객체_설계/CH1 정리.md",
     "README.md",
