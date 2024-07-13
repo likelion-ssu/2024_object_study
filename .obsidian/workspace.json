@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "07c351d4a89c9466",
@@ -146,7 +147,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2798b1dd0ecb368c",
+  "active": "915861fd11bb2210",
   "lastOpenFiles": [
     "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md",
     "ch2_객체지향_프로그래밍/attachments/표_2.1.png",
