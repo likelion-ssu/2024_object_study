@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "84a00030d3f771d8",
+        "id": "1133640ad0040ad9",
         "type": "tabs",
         "children": [
           {
-            "id": "dbb20e9c04a504f9",
+            "id": "f748db784200ed7e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -69,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "07c351d4a89c9466",
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "ch1_객체_설계/티켓 판매 애플리케이션 구현.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -147,10 +138,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dbb20e9c04a504f9",
+  "active": "f748db784200ed7e",
   "lastOpenFiles": [
-    "README.md",
+    "conflict-files-obsidian-git.md",
     "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
+    "ch1_객체_설계/CH1 정리.md",
+    "README.md",
+    "다형성_예시_1.png",
+    "Pasted image 20240706154445.png",
+    "Pasted image 20240706153022.png",
+    "Pasted image 20240706153009.png",
+    "Pasted image 20240706151025.png",
+    "Pasted image 20240706144517.png",
+    "Pasted image 20240706100648.png",
     "ch1_객체_설계"
   ]
 }
