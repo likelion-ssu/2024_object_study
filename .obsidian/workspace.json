@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md",
+                "file": "ch2_객체지향_프로그래밍/유승한 HANDS ON.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "6da11ca4a7bac37a",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md",
+                "file": "ch2_객체지향_프로그래밍/유승한 HANDS ON.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md",
+                "file": "ch2_객체지향_프로그래밍/유승한 HANDS ON.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md"
+                "file": "ch2_객체지향_프로그래밍/유승한 HANDS ON.md"
               }
             }
           }
@@ -147,12 +146,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2b4e316b27723153",
+  "active": "c295c1ca4114c645",
   "lastOpenFiles": [
+    "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md",
+    "ch2_객체지향_프로그래밍/유승한 HANDS ON.md",
     "ch2_객체지향_프로그래밍/TEMPLATE METHOD 패턴.md",
     "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
     "ch3_역할_책임_협력/ch03_역할_책임_협력.md",
-    "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md",
     "ch2_객체지향_프로그래밍/attachments/표_2.1.png",
     "ch2_객체지향_프로그래밍/attachments/그림_2.8.png",
     "ch2_객체지향_프로그래밍/attachments/그림_2.7.png",
