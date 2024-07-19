@@ -142,12 +142,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,7 +159,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "afac0f3832c65d24",
+  "active": "41e1cc36a04b0bc9",
   "lastOpenFiles": [
     "ch5_책임할당하기",
     "새 폴더",
