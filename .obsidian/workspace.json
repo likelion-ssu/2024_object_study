@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ch5_책임할당/Untitled.md",
+                "file": "ch5_책임할당/ch5_책임 할당하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ch5_책임할당/Untitled.md",
+                "file": "ch5_책임할당/ch5_책임 할당하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ch5_책임할당/Untitled.md",
+                "file": "ch5_책임할당/ch5_책임 할당하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ch5_책임할당/Untitled.md"
+                "file": "ch5_책임할당/ch5_책임 할당하기.md"
               }
             }
           }
@@ -160,10 +160,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "915861fd11bb2210",
+  "active": "afac0f3832c65d24",
   "lastOpenFiles": [
-    "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md",
     "ch5_책임할당/Untitled.md",
+    "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md",
+    "ch5_책임할당/ch5_책임 할당하기.md",
     "ch5_책임할당",
     "새 폴더",
     "ch5_책임할당하기",
