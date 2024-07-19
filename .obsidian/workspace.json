@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md",
+                "file": "ch5_책임할당/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md",
+                "file": "ch5_책임할당/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md",
+                "file": "ch5_책임할당/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md"
+                "file": "ch5_책임할당/Untitled.md"
               }
             }
           }
@@ -162,12 +162,12 @@
   },
   "active": "915861fd11bb2210",
   "lastOpenFiles": [
+    "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md",
     "ch5_책임할당/Untitled.md",
     "ch5_책임할당",
     "새 폴더",
     "ch5_책임할당하기",
     "Untitled.md",
-    "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md",
     "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
     "ch2_객체지향_프로그래밍/attachments/표_2.1.png",
     "ch2_객체지향_프로그래밍/attachments/그림_2.8.png",
