@@ -13,13 +13,36 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md",
+                "file": "week2 - usbinn.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "7b336aa118900a59",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "week2 - usbinn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fc9c8721bcdabb20",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "07c351d4a89c9466",
@@ -86,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md",
+                "file": "week2 - usbinn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md",
+                "file": "week2 - usbinn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md"
+                "file": "week2 - usbinn.md"
               }
             }
           }
@@ -147,10 +169,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "915861fd11bb2210",
+  "active": "7b336aa118900a59",
   "lastOpenFiles": [
-    "README.md",
     "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md",
+    "week2 - usbinn.md",
+    "README.md",
     "ch2_객체지향_프로그래밍/attachments/Requirements__example.png",
     "ch2_객체지향_프로그래밍/attachments/Communication_Diagram__reserving.png",
     "ch2_객체지향_프로그래밍/attachments/Domains.png",
