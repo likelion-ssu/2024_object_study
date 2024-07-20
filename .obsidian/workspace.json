@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "ab1154de76d8c54e",
+        "id": "fc7fb8c077cc3212",
         "type": "tabs",
         "children": [
           {
-            "id": "f788698b6084c232",
+            "id": "a22b61890b19c2ed",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {}
             }
           }
@@ -138,8 +138,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f788698b6084c232",
+  "active": "a22b61890b19c2ed",
   "lastOpenFiles": [
+    "ch2_객체지향_프로그래밍/hands-on.md",
+    "conflict-files-obsidian-git.md",
+    "Untitled",
+    "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md",
+    "ch2_객체지향_프로그래밍/TEMPLATE METHOD 패턴.md",
     "ch1_객체_설계/CH1 정리.md",
     "오브젝트/Welcome.md",
     "오브젝트",
@@ -153,9 +158,7 @@
     "ch2_객체지향_프로그래밍/attachments/그림_2.15.png",
     "ch2_객체지향_프로그래밍/attachments/그림_2.16.png",
     "ch2_객체지향_프로그래밍/attachments/그림_2.14.png",
-    "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md",
     "ch2_객체지향_프로그래밍/attachments",
-    "ch2_객체지향_프로그래밍/TEMPLATE METHOD 패턴.md",
     "ch2_객체지향_프로그래밍",
     "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
     "README.md",
