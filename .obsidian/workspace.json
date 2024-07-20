@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "802f932e2737c1c4",
+        "id": "71412cdc9a1e5057",
         "type": "tabs",
         "children": [
           {
-            "id": "cc5b35b04dbfcb37",
+            "id": "c295c1ca4114c645",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
+                "file": "ch4_설계품질과_트레이드오프/설계 품질과 트레이드 오프.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
+                "file": "ch4_설계품질과_트레이드오프/설계 품질과 트레이드 오프.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
+                "file": "ch4_설계품질과_트레이드오프/설계 품질과 트레이드 오프.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ch1_객체_설계/티켓 판매 애플리케이션 구현.md"
+                "file": "ch4_설계품질과_트레이드오프/설계 품질과 트레이드 오프.md"
               }
             }
           }
@@ -146,6 +146,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cc5b35b04dbfcb37",
-  "lastOpenFiles": []
+  "active": "c295c1ca4114c645",
+  "lastOpenFiles": [
+    "Pasted image 20240720023921.png",
+    "Pasted image 20240720023136.png",
+    "Pasted image 20240720023123.png",
+    "Pasted image 20240720023110.png",
+    "Pasted image 20240720015654.png",
+    "Pasted image 20240720013247.png",
+    "Pasted image 20240720012924.png",
+    "Pasted image 20240720010412.png",
+    "environment.md",
+    "ch4_설계품질과_트레이드오프/설계 품질과 트레이드 오프.md",
+    "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
+    "README.md",
+    "Untitled.md",
+    "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md",
+    "ch4_설계품질과_트레이드오프",
+    "ch2_객체지향_프로그래밍/유승한 HANDS ON.md",
+    "ch2_객체지향_프로그래밍/TEMPLATE METHOD 패턴.md",
+    "ch3_역할_책임_협력/ch03_역할_책임_협력.md",
+    "ch2_객체지향_프로그래밍/attachments/표_2.1.png",
+    "ch2_객체지향_프로그래밍/attachments/그림_2.8.png",
+    "ch2_객체지향_프로그래밍/attachments/그림_2.7.png",
+    "ch2_객체지향_프로그래밍/attachments",
+    "ch2_객체지향_프로그래밍",
+    "ch3_역할_책임_협력/assets",
+    "ch3_역할_책임_협력",
+    "ch2_객체지향_프로그래밍/새 폴더"
+  ]
 }
