@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fc7fb8c077cc3212",
+        "id": "73961fa087d349f6",
         "type": "tabs",
         "children": [
           {
-            "id": "a22b61890b19c2ed",
+            "id": "602f151cdf280d92",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,7 +138,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a22b61890b19c2ed",
+  "active": "602f151cdf280d92",
   "lastOpenFiles": [
     "ch2_객체지향_프로그래밍/hands-on.md",
     "conflict-files-obsidian-git.md",
