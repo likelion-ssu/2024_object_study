@@ -11,11 +11,9 @@
             "id": "0cb2ea946fc34b4c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "ch7_객체 분해/7장 객체 분해.md",
-                "mode": "source",
-                "source": false
+                "file": "ch7_객체 분해/객체지향.png"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ch7_객체 분해/7장 객체 분해.md",
+                "file": "ch7_객체 분해/객체지향.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ch7_객체 분해/7장 객체 분해.md",
+                "file": "ch7_객체 분해/객체지향.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ch7_객체 분해/7장 객체 분해.md"
+                "file": "ch7_객체 분해/객체지향.png"
               }
             }
           }
@@ -146,18 +144,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0cb2ea946fc34b4c",
+  "active": "915861fd11bb2210",
   "lastOpenFiles": [
-    "객체지향.png",
-    "객체지향구조.png",
-    "추상데이터타입.png",
-    "급여관리시스템.png",
-    "다형성.png",
-    "README.md",
-    "트리형태.png",
-    "추상화 메커니즘.png",
-    "Pasted image 20240727143109.png",
     "ch7_객체 분해/7장 객체 분해.md",
+    "ch7_객체 분해/객체지향.png",
+    "ch7_객체 분해/객체지향구조.png",
+    "ch7_객체 분해/추상데이터타입.png",
+    "ch7_객체 분해/급여관리시스템.png",
+    "ch7_객체 분해/다형성.png",
+    "README.md",
+    "ch7_객체 분해/트리형태.png",
+    "ch7_객체 분해/추상화 메커니즘.png",
+    "Pasted image 20240727143109.png",
     "conflict-files-obsidian-git.md",
     "오브젝트/Welcome.md",
     "오브젝트",
