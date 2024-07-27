@@ -1,18 +1,22 @@
 {
   "main": {
-    "id": "8c187250ad11513c",
+    "id": "57f4e135a6be7b35",
     "type": "split",
     "children": [
       {
-        "id": "08310699a4393e78",
+        "id": "df7f5c5bf0875519",
         "type": "tabs",
         "children": [
           {
-            "id": "33a3054c5bf70f2d",
+            "id": "0cb2ea946fc34b4c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "ch7_객체 분해/7장 객체 분해.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -21,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "2b97f4c5444cd93d",
+    "id": "0e31ea5c9ec59bcc",
     "type": "split",
     "children": [
       {
-        "id": "3812775031eedc8c",
+        "id": "82dcfe762e735c35",
         "type": "tabs",
         "children": [
           {
-            "id": "96b5d65e77f8a6d8",
+            "id": "915861fd11bb2210",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,7 +43,7 @@
             }
           },
           {
-            "id": "088d610637305633",
+            "id": "56cf51c827bdba24",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -54,7 +58,7 @@
             }
           },
           {
-            "id": "db60198fb6a98e4f",
+            "id": "c90735872241054a",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -68,20 +72,20 @@
     "width": 300
   },
   "right": {
-    "id": "f966d5ac02e82326",
+    "id": "07c351d4a89c9466",
     "type": "split",
     "children": [
       {
-        "id": "7318cc52cffecdc3",
+        "id": "e44595a1e81a053f",
         "type": "tabs",
         "children": [
           {
-            "id": "ce22e56662c59fbd",
+            "id": "9de8a23f5bed6cc9",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
+                "file": "ch7_객체 분해/7장 객체 분해.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,19 +97,19 @@
             }
           },
           {
-            "id": "9b0fe01a20c109a9",
+            "id": "af41148d7f6f5756",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
+                "file": "ch7_객체 분해/7장 객체 분해.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "7ac372978bb632dc",
+            "id": "432bbfed3f238c88",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -116,12 +120,12 @@
             }
           },
           {
-            "id": "561eccf7da73fad3",
+            "id": "41e1cc36a04b0bc9",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "ch1_객체_설계/티켓 판매 애플리케이션 구현.md"
+                "file": "ch7_객체 분해/7장 객체 분해.md"
               }
             }
           }
@@ -142,13 +146,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "96b5d65e77f8a6d8",
+  "active": "0cb2ea946fc34b4c",
   "lastOpenFiles": [
-    "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
+    "객체지향.png",
+    "객체지향구조.png",
+    "추상데이터타입.png",
+    "급여관리시스템.png",
+    "다형성.png",
     "README.md",
+    "트리형태.png",
+    "추상화 메커니즘.png",
+    "Pasted image 20240727143109.png",
+    "ch7_객체 분해/7장 객체 분해.md",
+    "conflict-files-obsidian-git.md",
     "오브젝트/Welcome.md",
     "오브젝트",
-    "ch1_객체_설계",
-    "Welcome.md"
+    "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
+    "ch1_객체_설계/CH1 정리.md",
+    "다형성_예시_1.png",
+    "Pasted image 20240706154445.png",
+    "ch1_객체_설계"
   ]
 }
