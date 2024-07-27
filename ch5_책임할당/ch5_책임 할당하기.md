@@ -10,7 +10,7 @@
 ### 책임 할당을 위한 GRASP 패턴
 
 > *GRASP(General Responsibility Assignment Software Pattern)패턴
-> : 객체에게 책임을 할당할 때 지침으로 삼을 수 있는 원칙들의 집합을 패턴 형식으로 정리
+> : OOP객체에게 책임을 할당할 때 지침으로 삼을 수 있는 원칙들의 집합을 패턴 형식으로 정리
 
 
 **1. 도메인 개념
@@ -75,7 +75,7 @@
 
 ###  ==+ GRASP 패턴==
 -> 9가지의 원칙 
-1. Controller: 컨트롤러는 모든 시스템 
+1. Controller
 2. Creator
 3. Indirection
 4. Information expert
@@ -89,7 +89,7 @@
 
 
 Movie 클래스
-```
+```java
 public class Movie{
 	privte Money calculateDiscountAmount(){
 		switch(movieType){
@@ -118,7 +118,7 @@ public class Movie{
 ```
 
 discountCondition 클래스
-```
+```java
 public class discountCondition{
 	private DiscountConditionType type; //enum type
 	private int sequence;
@@ -144,7 +144,7 @@ public class discountCondition{
 ```
 
 Screening 클래스
-```
+```java
 public class Screening{
 	public LocalDateTime getWhenScreened(){
 		return whenScreened;
@@ -170,7 +170,7 @@ public class Screening{
 한계: 
 	1. Movie-PeriodCondition, SequenceCondition 양쪽에 결합 -> 전체적 결합도 상승 
 	2. 협력을 위한 목록 관리로 인해 수정 어려워짐 -> 캡슐화 성능 저하
-	=> 변경과 캠슐화 관점에서의 설계 품질 저하 
+	=> 변경과 캡슐화 관점에서의 설계 품질 저하 
 
 ==sol2) 다형성(POLYMORPHISM)을 통한 분리 ==
 
@@ -183,21 +183,21 @@ Movie입장에서 SequenceCondition과 PeriodCondition은 동일한 역할을 �
 
 
 인터페이스를 이용한 DiscountConditon 구현 
-```
+```java
 public interface DiscountCondition{
 	boolean isSatisfiedBy(Screening screening);
 }
 ```
 
 
-```
-public class Periodconditino implements DiscountCondition{...}
+```java
+public class Periodcondition implements DiscountCondition{...}
 
-public clas SequenceConditino implements DiscountCondition{...} 
+public class SequenceCondition implements DiscountCondition{...} 
 ```
 
 Movie 클래스
-```
+```java
 public class Movie{
 	private List<DiscountCondition> discountConditions;
 
@@ -232,7 +232,7 @@ public class Movie{
 
 
 POLTY MORPHISM 패턴을 사용한 PROTECRED VARIATION 패턴 달성
-```
+```java
 public abstract class Movie{ //구현 공유o -> 추상 클래스 
 	privte String title;
 	private Duration runningTime;
@@ -268,7 +268,7 @@ public abstract class Movie{ //구현 공유o -> 추상 클래스
 
 AmountDiscountMovie 클래스 (- Movie 클래스의 서브클래스)
 
-```
+```java
 public class AmountDiscountMovie extends Movie{
 	private Money discountAmount;
 
@@ -286,7 +286,7 @@ public class AmountDiscountMovie extends Movie{
 ```
 
 PercentDiscountMovie클래스 (- Movie 클래스의 서브클래스)
-```
+```java
 public class PercentDiscountMovie extends Movie{
 	private double percent;
 	
@@ -310,7 +310,7 @@ public class PercentDiscountMovie extends Movie{
 
 ### ==HANDS ON
 
-```
+```java
 public class ReservationAgency{
 	public Reservation reserve(Screening screening, Customer customer, int audienceCount){
 		Movie movie= screening.getMovie();
@@ -356,7 +356,7 @@ reserve 매서드를 아래와 같이 작성되어 있을 시 동일한 작업�
 높은 응집도를 가진 작은 함수들로 분리하여 리팩토링 해봅시다!
 
 
-```
+```java
 public Reservateion reserve(Screening screening, Customer customer, int audienceCount){
 	boolean discountable=checkDiscountalbe(screening);
 	Money fee=calculateFee(screening,discountalbe,audienceCount);
