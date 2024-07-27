@@ -89,7 +89,7 @@
 
 
 Movie 클래스
-```
+```JAVA
 public class Movie{
 	privte Money calculateDiscountAmount(){
 		switch(movieType){
@@ -118,7 +118,7 @@ public class Movie{
 ```
 
 discountCondition 클래스
-```
+```JAVA
 public class discountCondition{
 	private DiscountConditionType type; //enum type
 	private int sequence;
@@ -144,7 +144,7 @@ public class discountCondition{
 ```
 
 Screening 클래스
-```
+```JAVA
 public class Screening{
 	public LocalDateTime getWhenScreened(){
 		return whenScreened;
@@ -232,7 +232,7 @@ public class Movie{
 
 
 POLTY MORPHISM 패턴을 사용한 PROTECRED VARIATION 패턴 달성
-```
+```JAVA
 public abstract class Movie{ //구현 공유o -> 추상 클래스 
 	privte String title;
 	private Duration runningTime;
