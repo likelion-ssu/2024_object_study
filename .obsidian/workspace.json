@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f966d5ac02e82326",
@@ -86,8 +87,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ch1_객체_설계/CH1 정리.md",
-
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,8 +103,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ch1_객체_설계/CH1 정리.md",
-
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,10 +124,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "ch1_객체_설계/CH1 정리.md"
-
-              }
+              "state": {}
             }
           }
         ]
@@ -150,23 +144,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f788698b6084c232",
+  "active": "a4fabeda85bb6f30",
   "lastOpenFiles": [
-    "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
-    "다형성_예시_1.png",
-    "ch1_객체_설계/CH1 정리.md",
-
-    "Pasted image 20240706154445.png",
-    "Pasted image 20240706153022.png",
-    "Pasted image 20240706153009.png",
-    "Pasted image 20240706151025.png",
-    "Pasted image 20240706144517.png",
-    "Pasted image 20240706100648.png",
-    "README.md",
+    "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md",
+    "ch2_객체지향_프로그래밍/attachments/표_2.1.png",
+    "ch2_객체지향_프로그래밍/attachments/그림_2.8.png",
+    "ch2_객체지향_프로그래밍/attachments/그림_2.7.png",
+    "ch2_객체지향_프로그래밍/attachments/그림_2.6.png",
+    "ch2_객체지향_프로그래밍/attachments/그림_2.5.png",
+    "ch2_객체지향_프로그래밍/attachments/그림_2.4.png",
+    "ch2_객체지향_프로그래밍/attachments/그림_2.3.png",
+    "ch2_객체지향_프로그래밍/attachments/그림_2.16.png",
+    "ch2_객체지향_프로그래밍/attachments/그림_2.15.png",
+    "ch2_객체지향_프로그래밍/attachments/그림_2.14.png",
+    "ch2_객체지향_프로그래밍/TEMPLATE METHOD 패턴.md",
+    "ch2_객체지향_프로그래밍/attachments",
+    "ch2_객체지향_프로그래밍",
+    "conflict-files-obsidian-git.md",
     "오브젝트/Welcome.md",
     "오브젝트",
-    "ch1_객체_설계",
-    "Welcome.md"
-
+    "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
+    "ch1_객체_설계/CH1 정리.md",
+    "README.md",
+    "ch1_객체_설계"
   ]
 }
