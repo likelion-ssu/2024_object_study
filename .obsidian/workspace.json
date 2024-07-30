@@ -1,19 +1,20 @@
 {
   "main": {
-    "id": "57f4e135a6be7b35",
+    "id": "8c187250ad11513c",
     "type": "split",
     "children": [
       {
-        "id": "1133640ad0040ad9",
+        "id": "ab1154de76d8c54e",
         "type": "tabs",
         "children": [
           {
-            "id": "f748db784200ed7e",
+            "id": "f788698b6084c232",
+
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "ch1_객체_설계/CH1 정리.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,15 +26,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "0e31ea5c9ec59bcc",
+    "id": "2b97f4c5444cd93d",
     "type": "split",
     "children": [
       {
-        "id": "82dcfe762e735c35",
+        "id": "3812775031eedc8c",
         "type": "tabs",
         "children": [
           {
-            "id": "915861fd11bb2210",
+            "id": "96b5d65e77f8a6d8",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +44,7 @@
             }
           },
           {
-            "id": "56cf51c827bdba24",
+            "id": "088d610637305633",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +59,7 @@
             }
           },
           {
-            "id": "c90735872241054a",
+            "id": "db60198fb6a98e4f",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -72,20 +73,21 @@
     "width": 300
   },
   "right": {
-    "id": "07c351d4a89c9466",
+    "id": "f966d5ac02e82326",
     "type": "split",
     "children": [
       {
-        "id": "e44595a1e81a053f",
+        "id": "7318cc52cffecdc3",
         "type": "tabs",
         "children": [
           {
-            "id": "9de8a23f5bed6cc9",
+            "id": "ce22e56662c59fbd",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "ch1_객체_설계/CH1 정리.md",
+
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +99,20 @@
             }
           },
           {
-            "id": "af41148d7f6f5756",
+            "id": "9b0fe01a20c109a9",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "ch1_객체_설계/CH1 정리.md",
+
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "432bbfed3f238c88",
+            "id": "7ac372978bb632dc",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,12 +123,13 @@
             }
           },
           {
-            "id": "41e1cc36a04b0bc9",
+            "id": "561eccf7da73fad3",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "ch1_객체_설계/CH1 정리.md"
+
               }
             }
           }
@@ -146,21 +150,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f748db784200ed7e",
+  "active": "f788698b6084c232",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "오브젝트/Welcome.md",
-    "오브젝트",
     "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
-    "ch1_객체_설계/CH1 정리.md",
-    "README.md",
     "다형성_예시_1.png",
+    "ch1_객체_설계/CH1 정리.md",
+
     "Pasted image 20240706154445.png",
     "Pasted image 20240706153022.png",
     "Pasted image 20240706153009.png",
     "Pasted image 20240706151025.png",
     "Pasted image 20240706144517.png",
     "Pasted image 20240706100648.png",
-    "ch1_객체_설계"
+    "README.md",
+    "오브젝트/Welcome.md",
+    "오브젝트",
+    "ch1_객체_설계",
+    "Welcome.md"
+
   ]
 }
