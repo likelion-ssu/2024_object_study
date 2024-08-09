@@ -11,8 +11,12 @@
             "id": "a4fabeda85bb6f30",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "ch3_역할_책임_협력/ch03_역할_책임_협력.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ch3_역할_책임_협력/ch03_역할_책임_협력.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ch3_역할_책임_협력/ch03_역할_책임_협력.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "ch3_역할_책임_협력/ch03_역할_책임_협력.md"
+              }
             }
           }
         ]
@@ -138,8 +146,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a4fabeda85bb6f30",
+  "active": "915861fd11bb2210",
   "lastOpenFiles": [
+    "Pasted image 20240706144517.png",
+    "Pasted image 20240706100648.png",
     "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
     "ch3_역할_책임_협력/ch03_역할_책임_협력.md",
     "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md",
@@ -156,7 +166,6 @@
     "ch2_객체지향_프로그래밍/attachments/그림_2.5.png",
     "ch2_객체지향_프로그래밍/attachments/그림_2.4.png",
     "ch2_객체지향_프로그래밍/attachments/그림_2.3.png",
-    "ch2_객체지향_프로그래밍/attachments/그림_2.16.png",
     "ch2_객체지향_프로그래밍/TEMPLATE METHOD 패턴.md",
     "ch2_객체지향_프로그래밍/attachments",
     "ch2_객체지향_프로그래밍",
