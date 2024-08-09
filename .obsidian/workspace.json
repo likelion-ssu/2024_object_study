@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "a819f6e13fbf3e85",
+        "id": "86b81dec601614be",
         "type": "tabs",
         "children": [
           {
-            "id": "a4fabeda85bb6f30",
+            "id": "0ec651192e28b795",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ch3_역할_책임_협력/ch03_역할_책임_협력.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ch3_역할_책임_협력/ch03_역할_책임_협력.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ch3_역할_책임_협력/ch03_역할_책임_협력.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "ch3_역할_책임_협력/ch03_역할_책임_협력.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,15 +138,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "915861fd11bb2210",
+  "active": "0ec651192e28b795",
   "lastOpenFiles": [
-    "Pasted image 20240706144517.png",
-    "Pasted image 20240706100648.png",
-    "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
     "ch3_역할_책임_협력/ch03_역할_책임_협력.md",
-    "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md",
+    "ch9_유연한_설계/CH9정리.md",
     "ch3_역할_책임_협력/assets/2.jpeg",
     "ch3_역할_책임_협력/assets/1.jpeg",
+    "ch1_객체_설계/CH1 정리.md",
+    "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
+    "ch9_유연한_설계",
+    "Pasted image 20240706144517.png",
+    "Pasted image 20240706100648.png",
+    "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md",
     "ch3_역할_책임_협력/assets",
     "ch3_역할_책임_협력",
     "ch2_객체지향_프로그래밍/handson",
@@ -165,14 +160,12 @@
     "ch2_객체지향_프로그래밍/attachments/그림_2.6.png",
     "ch2_객체지향_프로그래밍/attachments/그림_2.5.png",
     "ch2_객체지향_프로그래밍/attachments/그림_2.4.png",
-    "ch2_객체지향_프로그래밍/attachments/그림_2.3.png",
     "ch2_객체지향_프로그래밍/TEMPLATE METHOD 패턴.md",
     "ch2_객체지향_프로그래밍/attachments",
     "ch2_객체지향_프로그래밍",
     "conflict-files-obsidian-git.md",
     "오브젝트/Welcome.md",
     "오브젝트",
-    "ch1_객체_설계/CH1 정리.md",
     "README.md",
     "ch1_객체_설계"
   ]
