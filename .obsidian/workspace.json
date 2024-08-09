@@ -11,12 +11,8 @@
             "id": "a4fabeda85bb6f30",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "ch1_객체_설계/티켓 판매 애플리케이션 구현.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,8 +138,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "915861fd11bb2210",
+  "active": "a4fabeda85bb6f30",
   "lastOpenFiles": [
+    "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
     "ch3_역할_책임_협력/ch03_역할_책임_협력.md",
     "ch2_객체지향_프로그래밍/객체지향 프로그래밍 (feat. 영화 예매 시스템).md",
     "ch3_역할_책임_협력/assets/2.jpeg",
@@ -170,7 +163,6 @@
     "conflict-files-obsidian-git.md",
     "오브젝트/Welcome.md",
     "오브젝트",
-    "ch1_객체_설계/티켓 판매 애플리케이션 구현.md",
     "ch1_객체_설계/CH1 정리.md",
     "README.md",
     "ch1_객체_설계"
